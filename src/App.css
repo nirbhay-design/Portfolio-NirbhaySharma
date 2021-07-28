@@ -64,6 +64,12 @@
   
 } */
 
+
+@keyframes gettext{
+  from {margin-top:0px;font-size:20px}
+  to {margin-top:50px;font-size:50px}
+}
+
 h1{
   color:white;
   font-size:50px;
@@ -71,6 +77,8 @@ h1{
   font-style:italic;
   margin-top:50px;
   transition:all 1s;
+  animation-name: gettext;
+  animation-duration:2s;
 }
 
 h1:hover{
