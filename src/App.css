@@ -1,38 +1,79 @@
+
 .App {
   text-align: center;
+  background-color: white;
+  /* background-image:url("https://media.istockphoto.com/photos/white-studio-background-picture-id1040250650?k=6&m=1040250650&s=612x612&w=0&h=Ve0znmMwCbVyo66uIfeSrSYRuHau85oBiVIv1OplATs="); */
+  background-image:url("data:image/jpeg;base64,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");
+  /* margin:55px; */
+  /* background-color:lightgray; */
+  background-repeat: no-repeat;
+  background-size:cover; 
+  padding:5vh 0 32vh 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.icon__value{
+  color:blue;
+  padding:5px !important;
+  transition:color 1s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon__value:hover{
+  color:green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.icons{
+  margin:10px !important;
+}
+.image__credentials{
+  display:flex;
+  align-items:center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* width:100%; */
+  overflow-x:scroll;
+  padding:35px;
+  margin:0 5vw 0 5vw;
+}
+.image__credentials::-webkit-scrollbar{
+  display:none;
+}
+.my__img{
+  margin:10px;
+  width:50vw;
+  height:50vh;
+  max-width:375px;
+  max-height:350px;
+  border:3px solid purple;
+  border-radius:50%;
+  transition:all 1s;
+}
+.my__img:hover{
+  transform:scale(1.07);
+
 }
 
-.App-link {
-  color: #61dafb;
+.contacts__details .MuiIconButton-root{
+  background-color: white;
+  padding:8px;
+  box-shadow:0px 5px 43px 0px rgba(0,0,0,0.3)
+} 
+
+/* .main__content{
+
+  padding:65px 0 65px 0;
+  
+} */
+
+h1{
+  color:white;
+  font-size:50px;
+  font-weight:800;
+  font-style:italic;
+  margin-top:50px;
+  transition:all 1s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1:hover{
+  transform:scale(1.05);
+  color:yellow;
 }
